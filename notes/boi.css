@@ -16,11 +16,11 @@ header, footer {
     text-align: center;
 
 #fhi {
-    font-size: 21;
+    font-size: 21px;
 }
 
 header > img {
     display: block;
-    width: 50%;
+    width: 20%;
     margin: auto;
 }
