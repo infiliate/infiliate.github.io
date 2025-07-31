@@ -15,10 +15,8 @@ main, header, footer {
 header, footer {
     text-align: center;
 
-}
-
-.E1, .E2, .E3 {
-    text-align: left;
+#fhi {
+    font-size: 21;
 }
 
 header > img {
