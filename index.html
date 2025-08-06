@@ -1,103 +1,41 @@
+<!--THis porfolia site will contain navigation bar the heart, and body with divisions & articles-->
 <!DOCTYPE html>
 <html>
-    <!-- There will be four classes of now, i, notes on learning, ii, notes on code iii, projects iv, snapshots of this site v, Portfolia that includes my a image of mine and few a bio and few links-->
-    <head>
-        <style>
-            img {
-                width: 200px;
-                text-align: center;
-            }
-            body {
-                background-image: url('https://wallpapers.com/images/hd/pure-black-background-wcs86b1g1awsprv8.jpg');
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            p {
-                color: white;
-            }
-            h3 {
-                color: white;
-            }
-            li {
-                color: gray;
-            }
-            .portfolio {
-                width: 65%;
-                height: 65%;
-                border: 10px solid white;
-                margin: 10px;
-                display: inline-block; 
-                text-align: center
-            }
-            .projects {
-                width: 35%;
-                height: 35%;
-                border: 10px solid white;
-                margin: 10px;
-                display: inline-block;
-                text-align: center;
-            }
-            .notes-on-learning {
-                width: 33%;
-                height: 35%;
-                border: 10px solid white;
-                margin: 10px;
-                display: inline-block;
-                text-align: center;
-            }
-            .notes-on-code {
-                width: 33%;
-                height: 80%;
-                border: 10px solid white;
-                margin: 10px;
-                display: inline-block;
-                text-align: center;
-            }
-            .snapshots {
-                width: 33%;
-                height: 20%;
-                border: 10px solid white;
-                margin: 10px;
-                display: inline-block;
-                text-align: center;
-            }
-        </style>
-    </head>
-
+    <header>
+        <title>Inayat</title>
+        <link href="inayat.css" rel="stylesheet" />
+    </header>
     <body>
-
-        <div class="portfolio">
-            <h3> About Me: </h3>
-            <img src="https://sdmntprcentralus.oaiusercontent.com/files/00000000-9bcc-61f5-8e18-a555585081bc/raw?se=2025-07-23T19%3A34%3A51Z&sp=r&sv=2024-08-04&sr=b&scid=e60f254b-a13a-5c2f-8fdd-16e4829f7bf8&skoid=31bc9c1a-c7e0-460a-8671-bf4a3c419305&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-22T23%3A54%3A20Z&ske=2025-07-23T23%3A54%3A20Z&sks=b&skv=2024-08-04&sig=zrckukSynr%2BJgpGEZ2sPe/B9FsoJrzY4W%2Bomg7CvQkM%3D" alt="Just the image">
-            <p> I am Inayat, A beginner learner of Programming, I have no great hobbies other than reading books and Coding as of now </p>
-            <h4 style="color:white;"> Here includes all my socials </h4>
+        <head class="navigation"> <!-- This will contain the navigation bar -->
+            <nav>
                 <ul>
-                    <li> <a href="https://github.com/infliate">github</a></li>
-                    <li> <a href="https://instagram.com/theinayatilahi">Instagram</a></li>
-                    <li> <a href="https://youtube.com/@theinayatilahi">youtube</a></li>
+                    <li><a href="/about/">About me</a></li>
+                    <li><a href="/projects/">Projects</a></li>
+                    <li><a href="/">Posts</a></li>
                 </ul>
-        </div>
-
-        <div class="projects">
-            <h3> Projects(Pretty simple ones for now) </h3>
-                <ul>
-                    <li> <a href="https://github.com/infiliate/infiliate.github.io">This portfolio repository</a>
-                </ul>
-        </div>
-
-        <div class="notes-on-learning">
-            <h3> Notes on Learning </h3>
-                <p> Nothing to show here as of now</p>
-        </div>
-        <div class="notes-on-code">
-            <h3> Notes on Code: a Journal</h3>
-            <p> As of now this is empty, didn't got time schedule, writing & hosting</p>
-        </div>
-        <div class="snapshots">
-            <h3> Snapshots of this portfolio site</h3>
-            <ul> 
-                <li> <a href=https://inayatilahi.me/Snapshots/1.html> Checkout Snapshot 1</a></li>
-            </ul>
+            </nav>
+        </head> <br /> <br /> <br />
+        <div class="posts"> 
+            <article id="focus"> 
+                <h2><a class="heads-with-texts" href="/focus/">How to focus?</a></h2>
+                <p> A overstimulated mind is a mind overwhelmed with information, that belongs different fields not of his interest. It directly effects his ability to be productive, and get quality from the work. what leads to an overwhelmed mind? permission, to let your mind consume by wandering a wide range of information without any purpose, permission to let your mind wander about other things except the ones you should think about  <a href="/focus/">Read more...</a></p>
+                <p>15/7/2025</p>
+            </article>
+            <article id="optimization"> <br /><br />
+                <h2><a class="heads-with-texts" href="/optimization/">Optimize to what extent?</a></h2>
+                <p>The world belongs to optimizers, but it can also throw you in the hell of perfectionism, which itself means it can't be improved. optimization is a process of improving the method of doing something to get better or more desirable results. it is done by rearranging, combining, altering, adding or even removing steps in the old method.  <a href="/optimization/">Read more...</a></p>
+                <p>14/6/2025</p>
+            </article>
+            <article id="Avoiding stupidity"> <br /><br />
+                <h2><a class="heads-with-texts" href="/stupidity/">Avoiding Avoiding stupidity</a></h2>
+                <p> If you know that by doing what, you will not be able to do what — or do it the way you want to (the stupid things) — and you're able to avoid them all, then all the other whats left are right. Because there are almost infinite ways to do something — but  <a href="/stupidity/">Read more...</a></p>
+                <p>6/6/2025</p>
+            </article>
+            <article> <br /><br />
+                <h2><a class="heads-with-texts" href="/identity/">A bais to save yourself from</a></h2>
+                <p> If you are born in a country, you are its citizen — and so you carry the identity of that country. If you belong to a religion, same thing. And humans do not stop there, we collect identities by caste, gender, race, language, class, interest, even the kind of phone we use. A single human can have thousands of identities layered on top of them.  <a href="/identity/">Read more...</a></p>
+                <p>2/6/2025</p>
+            </article>
         </div>
     </body>
 </html>
