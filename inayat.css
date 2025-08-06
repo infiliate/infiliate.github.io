@@ -1,0 +1,56 @@
+body {
+    background-color: #1e1f21;
+    color: white;
+}
+
+/* This selection controls How the unordered list that contains everything will apear */
+nav > ul {
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0px;
+    display: flex; 
+    gap: 35px; 
+    justify-content: center; 
+    border: 1px solid #2b020aff;
+    border-radius: 8px;
+    background-color: crimson; 
+    width: 60%;
+    height: 30px; 
+    margin: 0 auto;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+/* this selection controls the font and its size on list elements from unordered list */
+nav > ul > li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+/*This element controls the default colors of link text */
+nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.posts {
+    text-align: left;
+    width: 40%;
+    margin: auto;
+}
+
+article > p {
+    color: #b2b2b2ff;
+    font-size: 20px;
+}
+
+.heads-with-texts {
+    color: rgb(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+article > p > a {
+    color: rgb(178, 178, 178);
+}
